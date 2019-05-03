@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://unpkg.com/nes.css@2.1.0/css/nes.min.css");
+@import url("https://unpkg.com/nes.css/css/nes-core.min.css");
+
+html, body {font-family: 'Press Start 2P', cursive;}
+.manual-text {
+  display: block;
+  font-size: 9px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.head {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+.manual-text {
+  display: block;
+  font-size: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.head {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+}
