@@ -1,61 +1,85 @@
 .\" Copyright (C), 2019, Chang-Ning Tsai
 .TH CHANG-NING 7 "2019-05-02"
-.SH Name
+.SH NAME
 Chang-Ning Tsai \- a code farmer
-.SH Description
-.SS Skills
-.TP 4
-.I Python
+.SH SYNOPSIS
+chang-ning [--languages] [--skills] [--projects] [--contributor] [work-experience] [--talks]
+.SH DESCRIPTION
+I started my formal code farmer career in 2015 when I served for Research and
+Development Substitute Services in Taiwan. It was my first time to dabble large
+scale open sources such as Samba, Netatalk, Avahi, and so on. I enjoy learn
+from open sources and appreciate they help me horn my programming skills.
+.SS OPTIONS
+.B "--languages"
+.RS
+.TP
+.I python
 Python is one of my favoriate languages because of its elegant syntax. When
 I served at Synology Inc., I used Python to write many autotest scripts and
-implement a continuous integration system. Furthermore, I create a website,
-.UR https://www.pythonsheets.com
-pysheeet
-.UE
-, to log down many common snippets.
+implement a continuous integration system.
 .TP
-.I C/C++
+.I c/c++
 I have used C/C++ for 10 years. However, I am still learning these language
 because new language features (e.g. C++17) are evolving extremely fast recently
 In addition, to better use C/C++, learning related tools such as cmake, GNU
 autotools, or LLVM is necessary. Therefore, I can not guarantee that I master
 C/C++, but developing projects through C/C++ will not be a serious problem.
 .TP
-.I Javascript/Nodejs
+.I javascript
 It is inevitable to use Javascript to develop web applications.
 .TP
-.I Bash
+.I bash
 It is inevitable to write a bash script.
-.SS Open Source Contribution
-.TP 4
-.I flask-seasurf
-This project is a flask extension for securing web applications away from CSRF
-attack.
+.RE
 .TP
-.I blessed-contrib
-blessed-contrib collectes many examples about how to build a terminal
-ansi/ascii dashboard. The project is based on blessed which is curses-like
-library for nodejs.
-.SS Work Experience
-.br
-Product Developer /
+.B "--skills"
+.RS
+.I "network protocols"
+.TP
+.I "docker/kubernetes"
+.TP
+.I "aws"
+.TP
+.I "ci/cd"
+.RE
+.TP
+.B "--work-experience"
+.RS
+.TP
 .UR https://www.synology.com
 Synology
 .UE
-/ Taipei, Taiwan / 2015-2018
+Product Developer / Taipei, Taiwan / 2015-2018
+.TP
 .br
-Mobile Developer /
 .UR https://www.leaderg.com
 LeaderG
 .UE
-/ Taipei, Taiwan / 2013-2014
-.PP
-.SS Talks
+Mobile Developer / Taipei, Taiwan / 2013-2014
+.RE
+.TP
+.B "--contributor"
+* flask-seasurf
 .br
+* blessed-contrib
+.TP
+.B "--projects"
+.RS
+.TP
+.I pysheeet
+.TP
+.I csheeet
+.TP
+.I KTLS
+.RE
+.B "--talks"
+.RS
+.TP
+.I PyCon HK 2016 / Hong Kong, China
 .UR http://pycon.hk/2016/program/how-to-use-coroutine-to-build-a-socket-server
 How to use coroutine to build a socket server?
 .UE
-/ PyCon HK 2016 / Hong Kong, China
+.RE
 .SH SEE ALSO
 E-mail: spiderpower02@gmail.com
 .br
