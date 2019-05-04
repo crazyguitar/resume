@@ -3,92 +3,38 @@
 .SH NAME
 Chang-Ning Tsai \- a code farmer
 .SH SYNOPSIS
-chang-ning [--languages] [--skills] [--projects] [--contributor] [work-experience] [--talks]
-.SH DESCRIPTION
-I started my formal code farmer career in 2015 when I served for Research and
-Development Substitute Services in Taiwan. It was my first time to dabble large
-scale open sources such as Samba, Netatalk, Avahi, and so on. I enjoy learn
-from open sources and appreciate they help me horn my programming skills.
-.SH OPTIONS
-.B "--languages"
-.RS
+chang-ning <experience>
+.SH "SKILLS"
+.SS "Languages"
+Python, C/C++, Javascript/Nodejs, Bash, HTML, CSS
+.SS "Others"
+Docker, Kubernetes, Jenkins, Wireshark, Amazon Web Service
+.SH "WORK EXPERIENCE"
+.SS "Synology Inc."
+.TP 10
+.I "Netatalk"
+Maintained the open source project, Netatalk, which is the implementation
+of Apple File Protocol server and integrated features such as Mac
+Spotlight Search, reflink copy, and profiling switch to Network
+Attached Storage (NAS).
 .TP
-.I python
-Python is one of my favoriate languages because of its elegant syntax. When
-I served at Synology Inc., I used Python to write many autotest scripts and
-implement a continuous integration system.
+.I "Avahi"
+Implemented Multicast DNS CNAME record to Avahi, which is the open source
+MDNS (Mac Bonjour) project and tuned configurations for integrating
+different platforms of Network Attached Storage.
 .TP
-.I c/c++
-I have used C/C++ for 10 years. However, I am still learning these language
-because new language features (e.g. C++17) are evolving extremely fast recently
-In addition, to better use C/C++, learning related tools such as cmake, GNU
-autotools, or LLVM is necessary. Therefore, I can not guarantee that I master
-C/C++, but developing projects through C/C++ will not be a serious problem.
+.I "CI/CD"
+Used Docker/Kubernetes to implement Continuous Integration System for
+quality control as well as wrote many regression/performance tests for
+accelerating development schedule.
 .TP
-.I javascript
-It is inevitable to use Javascript to develop web applications.
+.I "Support"
+Migrate self-host support service from a single machine to Amazon Web
+Service and used CodePipeline, Lambda, DynamoDB, Elastic Beanstalk,
+ElastiCache, and CloudFormation to enhance the realibility of the
+support srvice.
+.SS "LeaderG Inc."
 .TP
-.I bash
-It is inevitable to write a bash script.
-.RE
-.TP
-.B "--skills"
-.RS
-.I "network protocols"
-.TP
-.I "docker/kubernetes"
-.TP
-.I "aws"
-.TP
-.I "ci/cd"
-.RE
-.TP
-.B "--work-experience"
-.RS
-.TP
-.UR https://www.synology.com
-Synology
-.UE
-Product Developer / Taipei, Taiwan / 2015-2018
-.TP
-.br
-.UR https://www.leaderg.com
-LeaderG
-.UE
-Mobile Developer / Taipei, Taiwan / 2013-2014
-.RE
-.TP
-.B "--contributor"
-* flask-seasurf
-.br
-* blessed-contrib
-.TP
-.B "--projects"
-.RS
-.TP
-.I pysheeet
-.TP
-.I csheeet
-.TP
-.I KTLS
-.RE
-.B "--talks"
-.RS
-.TP
-.I PyCon HK 2016 / Hong Kong, China
-.UR http://pycon.hk/2016/program/how-to-use-coroutine-to-build-a-socket-server
-How to use coroutine to build a socket server?
-.UE
-.RE
-.SH SEE ALSO
-E-mail: spiderpower02@gmail.com
-.br
-GitHub:
-.UR https://github.com/crazyguitar
-crazyguitar
-.br
-.UE
-LinkedIn:
-.UR https://www.linkedin.com/in/chang-ning-tsai-88bb2899
-chang-ning
-.UE
+.I MobileApp
+Participate in developing iPhone mobile apps such as Asante Genie Home
+Gateway and E-Book.

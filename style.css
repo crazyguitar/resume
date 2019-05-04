@@ -11,8 +11,10 @@ a {color: #fff;}
   margin-right: 5%;
   margin-left: 5%;
 }
-.manual-text section {padding-left: 12%;}
-.manual-text section h1.Sh {margin-top: 15px; margin-left: -14%;}
+.manual-text h1 {margin-top: 10px;}
+.manual-text section.Sh {padding-left: 8%;}
+.manual-text section h1 {margin-top: 10px; margin-left:-8%;}
+.manual-text section h2 {margin-top: 10px; margin-left:-4%;}
 .head {
   width: 90%;
   font-size: 12px;
@@ -25,6 +27,8 @@ td.head-vol {text-align: center;}
 td.head-ltitle {text-align: left;}
 td.head-rtitle {text-align: right;}
 .Bd-indent {padding-left: 5%;}
+.Bl-tag dt {float: none; width: 10%;}
+.Bl-tag dd {float: none; padding-left: 10%; width: 90%;}
 
 @media only screen and (min-width: 768px) {
 .manual-text {
@@ -34,4 +38,11 @@ td.head-rtitle {text-align: right;}
   margin-left: 15%;
 }
 .head {width: 70%; margin-top: 25px; margin-bottom: 10px;}
+.Bl-tag dt {float:left; width: 10%;}
+.Bl-tag dd {float:left; padding-left: 8%; width: 90%;}
+}
+
+@media only screen and (max-width: 900px) {
+.Bl-tag dt {float: none;}
+.Bl-tag dd {float: none;}
 }
