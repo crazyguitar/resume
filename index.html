@@ -12,7 +12,7 @@
 <table class="head">
   <tr>
     <td class="head-ltitle">CHANG-NING(7)</td>
-    <td class="head-vol">Miscellaneous Information Manual</td>
+    <td class="head-vol">About Me</td>
     <td class="head-rtitle">CHANG-NING(7)</td>
   </tr>
 </table>
@@ -23,98 +23,81 @@ Chang-Ning Tsai - a code farmer
 </section>
 <section class="Sh">
 <h1 class="Sh" id="SYNOPSIS"><a class="permalink" href="#SYNOPSIS">SYNOPSIS</a></h1>
-chang-ning [--languages] [--skills] [--projects] [--contributor]
-  [work-experience] [--talks]
+chang-ning &lt;experience&gt;
 </section>
 <section class="Sh">
-<h1 class="Sh" id="DESCRIPTION"><a class="permalink" href="#DESCRIPTION">DESCRIPTION</a></h1>
-I started my formal code farmer career in 2015 when I served for Research and
-  Development Substitute Services in Taiwan. It was my first time to dabble
-  large scale open sources such as Samba, Netatalk, Avahi, and so on. I enjoy
-  learn from open sources and appreciate they help me horn my programming
-  skills.
+<h1 class="Sh" id="SKILLS"><a class="permalink" href="#SKILLS">SKILLS</a></h1>
 <section class="Ss">
-<h2 class="Ss" id="OPTIONS"><a class="permalink" href="#OPTIONS">OPTIONS</a></h2>
-<b>--languages</b>
-<div class="Bd-indent">
-<dl class="Bl-tag">
-  <dt><i>python</i></dt>
-  <dd>Python is one of my favoriate languages because of its elegant syntax.
-      When I served at Synology Inc., I used Python to write many autotest
-      scripts and implement a continuous integration system.</dd>
-  <dt><i>c/c++</i></dt>
-  <dd>I have used C/C++ for 10 years. However, I am still learning these
-      language because new language features (e.g. C++17) are evolving extremely
-      fast recently In addition, to better use C/C++, learning related tools
-      such as cmake, GNU autotools, or LLVM is necessary. Therefore, I can not
-      guarantee that I master C/C++, but developing projects through C/C++ will
-      not be a serious problem.</dd>
-  <dt><i>javascript</i></dt>
-  <dd>It is inevitable to use Javascript to develop web applications.</dd>
-  <dt><i>bash</i></dt>
-  <dd>It is inevitable to write a bash script.</dd>
-</dl>
-</div>
-<dl class="Bl-tag">
-  <dt><b>--skills</b></dt>
-  <dd></dd>
-</dl>
-<div class="Bd-indent"><i>network protocols</i>
-<dl class="Bl-tag">
-  <dt><i>docker/kubernetes</i></dt>
-  <dd></dd>
-  <dt><i>aws</i></dt>
-  <dd></dd>
-  <dt><i>ci/cd</i></dt>
-  <dd></dd>
-</dl>
-</div>
-<dl class="Bl-tag">
-  <dt><b>--work-experience</b></dt>
-  <dd></dd>
-</dl>
-<div class="Bd-indent"><a class="Lk" href="https://www.synology.com">Synology</a>
-  Product Developer / Taipei, Taiwan / 2015-2018
-<br/>
-<a class="Lk" href="https://www.leaderg.com">LeaderG</a> Mobile Developer /
-  Taipei, Taiwan / 2013-2014</div>
-<dl class="Bl-tag">
-  <dt><b>--contributor</b></dt>
-  <dd>* flask-seasurf
-    <br/>
-    * blessed-contrib</dd>
-  <dt><b>--projects</b></dt>
-  <dd></dd>
-</dl>
-<div class="Bd-indent">
-<dl class="Bl-tag">
-  <dt><i>pysheeet</i></dt>
-  <dd></dd>
-  <dt><i>csheeet</i></dt>
-  <dd></dd>
-  <dt><i>KTLS</i></dt>
-  <dd></dd>
-</dl>
-</div>
-<b>--talks</b>
-<div class="Bd-indent">
-<dl class="Bl-tag">
-  <dt><i>PyCon HK 2016 / Hong Kong, China</i></dt>
-  <dd><a class="Lk" href="http://pycon.hk/2016/program/how-to-use-coroutine-to-build-a-socket-server">How
-      to use coroutine to build a socket server?</a></dd>
-</dl>
-</div>
+<h2 class="Ss" id="Languages"><a class="permalink" href="#Languages">Languages</a></h2>
+Python, C/C++, Javascript/Nodejs, Bash, HTML, CSS
 </section>
+<section class="Ss">
+<h2 class="Ss" id="Others"><a class="permalink" href="#Others">Others</a></h2>
+Docker, Kubernetes, Jenkins, Wireshark, Amazon Web Service
+</section>
+</section>
+<section class="Sh">
+<h1 class="Sh" id="WORK_EXPERIENCE"><a class="permalink" href="#WORK_EXPERIENCE">WORK
+  EXPERIENCE</a></h1>
+<section class="Ss">
+<h2 class="Ss" id="Synology_Inc."><a class="permalink" href="#Synology_Inc.">Synology
+  Inc.</a></h2>
+<dl class="Bl-tag">
+  <dt><i>Netatalk</i></dt>
+  <dd>Maintained the open source project, Netatalk, which is the implementation
+      of Apple File Protocol server and integrated features such as Mac
+      Spotlight Search, reflink copy, and profiling switch to Network Attached
+      Storage (NAS).</dd>
+  <dt><i>Avahi</i></dt>
+  <dd>Implemented Multicast DNS CNAME record to Avahi, which is the open source
+      MDNS (Mac Bonjour) project and tuned configurations for integrating
+      different platforms of Network Attached Storage.</dd>
+  <dt><i>CI/CD</i></dt>
+  <dd>Used Docker/Kubernetes to implement Continuous Integration System for
+      quality control as well as wrote many regression/performance tests for
+      accelerating development schedule.</dd>
+  <dt><i>Support</i></dt>
+  <dd>Migrate self-host support service from a single machine to Amazon Web
+      Service and used CodePipeline, Lambda, DynamoDB, Elastic Beanstalk,
+      ElastiCache, and CloudFormation to enhance the reliability of the support
+      service.</dd>
+</dl>
+</section>
+<section class="Ss">
+<h2 class="Ss" id="LeaderG_Inc."><a class="permalink" href="#LeaderG_Inc.">LeaderG
+  Inc.</a></h2>
+<dl class="Bl-tag">
+  <dt><i>MobileApp</i></dt>
+  <dd>Participated in developing iPhone mobile apps such as Asante Genie Home
+      Gateway and E-Book.</dd>
+</dl>
+</section>
+</section>
+<section class="Sh">
+<h1 class="Sh" id="RESEARCH_EXPERIENCE"><a class="permalink" href="#RESEARCH_EXPERIENCE">RESEARCH
+  EXPERIENCE</a></h1>
+[1] Chang-Ning Tsai, &quot;Indoor Localization Based on Wireless Channel State
+  Information&quot;
+</section>
+<section class="Sh">
+<h1 class="Sh" id="TALKS"><a class="permalink" href="#TALKS">TALKS</a></h1>
+<dl class="Bl-tag">
+  <dt><i>PyCon2016HK</i></dt>
+  <dd><a class="Lk" href="http://pycon.hk/2016/program/how-to-use-coroutine-to-build-a-socket-server">Talk:
+      How to use coroutine to build a socket server?</a></dd>
+</dl>
 </section>
 <section class="Sh">
 <h1 class="Sh" id="SEE_ALSO"><a class="permalink" href="#SEE_ALSO">SEE
   ALSO</a></h1>
-E-mail: spiderpower02@gmail.com
-<br/>
-GitHub: <a class="Lk" href="https://github.com/crazyguitar">crazyguitar
-<br/>
-</a> LinkedIn:
-  <a class="Lk" href="https://www.linkedin.com/in/chang-ning-tsai-88bb2899">chang-ning</a>
+<dl class="Bl-tag">
+  <dt><i>Email</i></dt>
+  <dd><a class="Lk" href="mailto:spiderpower02@gmail.com">spiderpower02@gmail.com</a></dd>
+  <dt><i>GitHub</i></dt>
+  <dd><a class="Lk" href="https://github.com/crazyguitar">crazyguitar</a></dd>
+  <dt><i>LinkedIn</i></dt>
+  <dd><a class="Lk" href="https://www.linkedin.com/in/chang-ning-tsai-88bb2899/">chang-ning</a></dd>
+</dl>
 </section>
 </div>
 <table class="foot">
