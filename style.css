@@ -30,6 +30,7 @@ td.head-rtitle {text-align: right;}
 .Bd-indent {padding-left: 5%;}
 .Bl-tag dt {float: none; width: 10%;}
 .Bl-tag dd {float: none; padding-left: 10%; width: 90%;}
+.Bl-tag dt i {font-style: normal;}
 
 @media only screen and (min-width: 768px) {
 .manual-text {
