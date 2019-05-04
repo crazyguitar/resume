@@ -3,35 +3,35 @@
 @import url("https://unpkg.com/nes.css/css/nes-core.min.css");
 
 html, body {font-family: 'Press Start 2P', cursive;}
+body {background: #1E1E1E; color: #DCDCDC;}
+a {color: #fff;}
 .manual-text {
   display: block;
   font-size: 9px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
+.manual-text section {padding-left: 12%;}
+.manual-text section h1.Sh {margin-top: 15px; margin-left: -14%;}
 .head {
-  text-align: center;
+  width: 90%;
   font-size: 12px;
   margin-top: 25px;
   margin-bottom: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
+td.head-vol {text-align: center;}
+td.head-ltitle {text-align: left;}
+td.head-rtitle {text-align: right;}
+.Bd-indent {padding-left: 5%;}
 
 @media only screen and (min-width: 768px) {
 .manual-text {
   display: block;
   font-size: 10px;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
-
-.head {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 10px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
+.head {width: 70%; margin-top: 25px; margin-bottom: 10px;}
 }
