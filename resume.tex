@@ -1,0 +1,153 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://crazyguitar.me/}{\Large Chang-Nint Tsai}} & Email : \href{mailto:spiderpower02@gmail.com}{spiderpower02@gmail.com}\\
+  \href{https://crazyguitar.me/}{https://crazyguitar.me/} & Mobile : +886-989909583 \\
+  \href{https://github.com/crazyguitar}{github} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Taiwan University}{Taipei, Taiwan}
+      {Master of Networking and Multimedia;  GPA: 3.95/4.3}{Aug. 2012 -- Dec. 2014}
+    \resumeSubheading
+      {National Taiwan University}{Taipei, Taiwan}
+      {Bachelor of Mathematics;  GPA: 3.42/4.0}{Aug. 2007 -- July. 2012}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Synology}{Taipei, Taiwan}
+      {Product Developer}{Jan 2015 - Sep 2018}
+      \resumeItemListStart
+        \resumeItem{Netatalk}
+          {Maintained the open source project, Netatalk, which is the implementation of Apple File Protocol server and integrated features such as Mac Spotlight Search, reflink copy, and profiling switch to Network Attached Storage (NAS).}
+        \resumeItem{Avahi}
+          {Implemented Multicast DNS CNAME record to Avahi, which is the open source MDNS (Mac Bonjour) project, and tuned configurations for integrating different platforms of Network Attached Storage.}
+         \resumeItem{CI/CD}
+          {Used Docker/Kubernetes to implement Continuous Integration System for quality control as well as wrote many regression/performance tests for accelerating development schedule.}
+         \resumeItem{OpenID}
+          {Integrated Microsoft Azure and IBM WebSphere OpenID Connect Authentication protocol to Network Attached Storage. This project required to manipulate site-to-site VPN for connecting to Azure domain service.}
+           \resumeItem{Support}
+          {Migrated self-host support service from a single machine to Amazon Web Service and used CodePipeline, Lambda, DynamoDB, Elastic Beanstalk, ElastiCache, and CloudFormation to enhance the reliability of the support service.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {LeaderG}{Taipei, Taiwan}
+      {iOS developer (par-time)}{2013 -  2014}
+      \resumeItemListStart
+        \resumeItem{MobileApp}
+          {Participated in developing iPhone mobile apps such as Asante Genie Home Gateway and E-Book.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+  %-----------TALK-----------------
+  \section{Talks}
+   \resumeSubHeadingListStart
+     \resumeSubItem{PyCon2016HK}
+     {Talk: How to use coroutine to build a socket server?}
+   \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{pysheeet}
+      {Cheat Sheets about Python programming language}
+    \resumeSubItem{ktls-example}
+      {A survey of Kernel TLS }
+    \resumeSubItem{ktls.py}
+      {A proof of concept about KTLS in Python}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+   \resumeSubHeadingListStart
+    \resumeSubItem  {Languages} {Python, C/C++, Javascript/Nodejs, Bash, HTML, CSS }  
+     \resumeSubItem {Technologies}{Docker, Kubernetes, Jenkins, Wireshark, AWS}   
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
