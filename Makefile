@@ -34,4 +34,4 @@ endif
 	rm -f $(TMP)
 
 clean:
-	rm -f $(OUT) $(TMP) $(MINSTYLE)
+	rm -f $(OUT) $(TMP) $(MINSTYLE) resume.log resume.out resume.aux resume.synctex.gz
